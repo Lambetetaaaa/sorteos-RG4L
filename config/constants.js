@@ -1,0 +1,26 @@
+module.exports = {
+  COLORS: {
+    PRIMARY:  0x5865F2,
+    SUCCESS:  0x57F287,
+    ERROR:    0xED4245,
+    WARNING:  0xFEE75C,
+    ENDED:    0x747F8D,
+  },
+  EMOJIS: {
+    GIVEAWAY: '🎉',
+    TICKET:   '🎫',
+    WIN:      '🏆',
+    HOST:     '👑',
+    TIME:     '⏰',
+    USERS:    '👥',
+    ERROR:    '❌',
+    SUCCESS:  '✅',
+    WARN:     '⚠️',
+    LUCK:     '🍀',
+    CANCEL:   '🚫',
+    LOG:      '📋',
+  },
+  MIN_DURATION: 10 * 1000,
+  MAX_DURATION: 30 * 24 * 60 * 60 * 1000,
+  COOLDOWN_SECONDS: 3,
+};
